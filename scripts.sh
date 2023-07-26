@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get update -y
-sudo apt-get install nginx
+apt-get update
+apt-get install -y nginx
 #move into html dir
 cd /var/www/
 
@@ -19,4 +19,4 @@ sudo mv script.sh html/
 cd /var/www/html/
 
 #start bootstrap script which calls variable and changes index.html information
-sudo ./script.sh      
+./script.sh      
