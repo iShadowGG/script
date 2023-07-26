@@ -3,7 +3,7 @@ sudo apt-get update -y
 sudo apt-get install -y nginx
 
 #move into html dir
-cd /var/www
+cd /var/www/html
 
 #mirror demo page from s3 bucket
 sudo wget --mirror --page-requisites --convert-links --no-clobber http://example-bucket-archie-indexpage-azure1.s3-website-eu-west-1.amazonaws.com
