@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt-get update -y
-sudo apt-get install -y nginx
-
+sudo apt-get install nginx
 #move into html dir
 cd /var/www/
 
